@@ -13,10 +13,10 @@ namespace ElevateHandle
     {
         static void Main(string[] args)
         {
-            ElevateHandle.Driver.Load();
-            ElevateHandle.UpdateDynamicData();
-            ElevateHandle.Elevate(0xDEADBEEF, 0xDEADBEEF);
-            ElevateHandle.Driver.Unload();
+            Handle.Driver.Load();
+            Handle.UpdateDynamicData();
+            Handle.Elevate(0xDEADBEEF, 0xDEADBEEF);
+            Handle.Driver.Unload();
         }
     }
 }
